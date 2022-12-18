@@ -7,6 +7,7 @@ import random                     # Random Module: To randomize Computer's choic
 root = tk.Tk()                         # Game Window
 root.configure(bg="#92b4ec")           # Window's Background Colour
 root.minsize(width=900, height=500)    # MInimum Window Size
+root.wm_title("Rock Paper Scissor")
 
 
 # Scores
